@@ -1,0 +1,9 @@
+#USING for LOOP:
+for i in range(100,51,-2):
+    print(i,end=",")         #This print all thing horizontally you can type print(i) for display vertically
+
+#USING while LOOP:
+n=100
+while n>=51:
+    print(n,end=",")        #This print all thing horizontally you can type print(i) for display vertically
+    n=n-2                   # (n-=2)
