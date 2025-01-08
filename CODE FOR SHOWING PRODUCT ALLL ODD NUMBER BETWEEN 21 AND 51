@@ -1,0 +1,15 @@
+#USING for LOOP:
+prod=21
+for i in range(23,51,2):
+    prod*=i     #(prod=prod*i)
+print("Product of all odd number between 21 and 51:")
+print(" =",prod)
+
+#USING while LOOP:
+prod=21
+n=23
+while n<51:
+    prod*=n   #(prod=prod*i)
+    n+=2      #(n=n+2)
+print("Product of all odd number between 21 and 51:")
+print(" =",prod)
