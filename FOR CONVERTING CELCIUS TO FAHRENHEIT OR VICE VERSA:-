@@ -1,9 +1,9 @@
 scale=input("Type 'fahrenheit' to convert Celsius to Fahrenheit or 'celcius' to convert Fahrenheit to Celsius: ")
 if scale.lower()=="fahrenheit":
-    c=float(input("Enter the temperature:"))
+    c=float(input("Enter the temperature:"))                     #We use lower() so that user can use capital letters
     temp=(c*9/5)+32                                    
     print(c,"℃ is equal to",temp,"℉")
-elif scale.lower()=="celcius":
+elif scale.lower()=="celcius":                                  #We use lower() so that user can use capital letters
     f=float(input("Enter the temperature:"))
     temp=((f-32)*5)/9                                 
     print(f,"°F is equal to",temp,"°C")
